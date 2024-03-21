@@ -61,6 +61,13 @@
     overflow: hidden;
 }
 
+.container-rev {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
 .col {
     flex: 1;
     width: 50%;
@@ -134,4 +141,23 @@ footer {
     max-width: 720px;
     margin: 0 auto;
     padding: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block; /* Change display to block for one-column layout */
+    max-width: none; /* Optionally, reset max-width */
+  }
+
+  .container-rev {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+  .col {
+    width: 100%; /* Set width to 100% for one-column layout */
+  }
 }
