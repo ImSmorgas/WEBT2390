@@ -56,15 +56,15 @@ $(function () {
     $("h1").css("color", "#b22026");
     $("h1").css("font-family", "DM Serif Display");
     $("h3").css("font-family", "DM Serif Display");
-    $(".btn").css("background-color", "#ce8f0f")
-    $(".btn").css("color", "#000")
+    $(".btn").css("background-color", "#ce8f0f");
+    $(".btn").css("color", "#000");
     $("h1").css("font-size", "50px");
     $("#ch1").css("text-align", "center");
 
     // Text
-    $("#1").text("SUGAR")
-    $(".columbus").text("1918")
-    $(".nina").text("Altoids were introduced to the USA.")
+    $("#1").text("SUGAR");
+    $(".columbus").text("1918");
+    $(".nina").text("Altoids were introduced to the USA.");
 
 
     $(".btn").click(function() {
