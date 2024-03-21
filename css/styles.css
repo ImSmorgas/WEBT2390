@@ -145,15 +145,15 @@ footer {
 
 @media screen and (max-width: 500px) {
   .container {
-    display: block; /* Change display to block for one-column layout */
-    max-width: none; /* Optionally, reset max-width */
+    display: flex;
+    flex-direction: column;
   }
 
   .col {
     width: 100%; /* Set width to 100% for one-column layout */
   }
 
-  .container-rev {
+  .rev-container {
     max-width: 720px;
     margin: 0 auto;
     overflow: hidden;
