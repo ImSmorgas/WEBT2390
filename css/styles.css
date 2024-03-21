@@ -62,6 +62,7 @@
 }
 
 .container-rev {
+.rev-container {
     max-width: 720px;
     margin: 0 auto;
     overflow: hidden;
@@ -148,7 +149,7 @@ footer {
     display: block; /* Change display to block for one-column layout */
     max-width: none; /* Optionally, reset max-width */
   }
-  
+
   .col {
     width: 100%; /* Set width to 100% for one-column layout */
   }
