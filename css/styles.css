@@ -148,6 +148,10 @@ footer {
     display: block; /* Change display to block for one-column layout */
     max-width: none; /* Optionally, reset max-width */
   }
+  
+  .col {
+    width: 100%; /* Set width to 100% for one-column layout */
+  }
 
   .container-rev {
     max-width: 720px;
@@ -155,9 +159,5 @@ footer {
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;
-  }
-
-  .col {
-    width: 100%; /* Set width to 100% for one-column layout */
   }
 }
