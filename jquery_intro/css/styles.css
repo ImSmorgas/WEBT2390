@@ -1,0 +1,163 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.accordion {
+    width: 100%;
+    margin: auto;
+}
+
+.accordion h3 {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+.accordion .content {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.accordion a {
+    margin: 0px;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.accordion a:hover {
+    background-color: rgba(206, 143, 15, .5);
+}
+
+#Menu {
+    max-width: 300px;
+}
+
+.ui-accordion-header .ui-icon {
+    display: none;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.container-reg {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.rev-container {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.col img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    margin: 2%;
+    width: 96%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+}
+
+.ui-dialog-titlebar {
+    display: none;
+}
+
+#dialog h3 {
+    margin-top: 0; /* Ensure no top margin for h3 */
+    text-align: center; /* Center the h3 title */
+}
+
+footer {
+    background-color: #262626;
+    border: 1px solid #ce8f0f;
+    color: #fff;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%; /* Set width to 100% for one-column layout */
+  }
+
+  .rev-container {
+    max-width: 720px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
